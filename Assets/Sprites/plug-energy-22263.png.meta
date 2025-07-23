@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plug-energy-22263_0: 3343489004018791638
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

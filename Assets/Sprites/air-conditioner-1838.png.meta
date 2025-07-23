@@ -311,7 +311,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      air-conditioner-1838_0: -6697564029893020293
+      air-conditioner-1838_1: -8666618320022187577
+      air-conditioner-1838_2: 372893509936469934
+      air-conditioner-1838_3: -1732295567845726013
+      air-conditioner-1838_4: 8723794395560048912
+      air-conditioner-1838_5: -3035022959407101940
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

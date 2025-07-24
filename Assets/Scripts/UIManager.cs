@@ -28,7 +28,7 @@ public class UIManager : MonoBehaviour
     }
     public void Restart()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("MainGame");
     }
 
     public void ShowFinalTime(float time)

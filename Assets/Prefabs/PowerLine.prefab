@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9071872437465588738}
   - component: {fileID: 2357222875241199587}
   - component: {fileID: 1478401683560369113}
+  - component: {fileID: 6470961892755077544}
   m_Layer: 0
   m_Name: PowerLine
   m_TagString: Untagged
@@ -57,7 +58,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 8c697fc06d4cb4b0bbab26ab17d23d7c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89,7 +90,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.24911499
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -154,3 +155,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start: {fileID: 0}
   end: {fileID: 0}
+--- !u!114 &6470961892755077544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066678314959664788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817048b3e2dba491e85fa9e11b22faa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: 2

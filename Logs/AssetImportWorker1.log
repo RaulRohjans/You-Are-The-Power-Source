@@ -7,7 +7,7 @@ Darwin version:          24.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2025-07-23T22:38:08Z
+Date:                    2025-07-24T09:31:37Z
 Using pre-set license
 Pro License: YES
 
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55283
+49376
 -job-worker-count
 4
 -background-job-worker-count
@@ -70,7 +70,7 @@ Successfully changed project path to: /Users/raul/Documents/GitHub/Electricity
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8398850112]  Target information:
 
-Player connection [8398850112]  * "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 3538143888 [EditorId] 3538143888 [Version] 1048832 [Id] OSXEditor(0,Rauls-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8398850112]  * "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 2172300823 [EditorId] 2172300823 [Version] 1048832 [Id] OSXEditor(0,Rauls-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8398850112] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8398850112] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -85,7 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 29.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.11f1 (9b156bbbd4df)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -100,45 +100,45 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56225
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56750
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.1.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001628 seconds.
-- Loaded All Assemblies, in  0.229 seconds
+Registered in 0.000797 seconds.
+- Loaded All Assemblies, in  0.227 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.199 seconds
-Domain Reload Profiling: 428ms
+- Finished resetting the current domain, in  0.196 seconds
+Domain Reload Profiling: 423ms
 	BeginReloadAssembly (77ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (98ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
 		LoadAssemblies (77ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (96ms)
-			TypeCache.Refresh (94ms)
-				TypeCache.ScanAssembly (86ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (85ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (200ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (196ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (173ms)
+		SetupLoadedEditorAssemblies (170ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
+			InitializePlatformSupportModulesInManaged (27ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (70ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -147,44 +147,44 @@ Domain Reload Profiling: 428ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.441 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.428 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.442 seconds
-Domain Reload Profiling: 883ms
-	BeginReloadAssembly (78ms)
+- Finished resetting the current domain, in  0.394 seconds
+Domain Reload Profiling: 819ms
+	BeginReloadAssembly (74ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (21ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (317ms)
-		LoadAssemblies (199ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (204ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (105ms)
-			BuildScriptInfoCaches (25ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (442ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (95ms)
+			BuildScriptInfoCaches (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (394ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (367ms)
+		SetupLoadedEditorAssemblies (323ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (228ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -193,60 +193,188 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 231 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6660 unused Assets / (3.4 MB). Loaded Objects now: 7384.
-Memory consumption went from 174.4 MB to 171.0 MB.
-Total: 8.012459 ms (FindLiveObjects: 2.609834 ms CreateObjectMapping: 0.151333 ms MarkObjects: 3.433250 ms  DeleteObjects: 1.817375 ms)
+Unloading 6661 unused Assets / (3.7 MB). Loaded Objects now: 7388.
+Memory consumption went from 174.1 MB to 170.3 MB.
+Total: 4.533250 ms (FindLiveObjects: 0.283292 ms CreateObjectMapping: 0.133000 ms MarkObjects: 3.100208 ms  DeleteObjects: 1.016458 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18108.290393 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49cbc7740788e03cf696a38241e138b8') in 0.011939417 seconds
+  Time since last request: 57317.702676 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(e9f5714a690002c4daa1a9e787ea6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(e9f5714a690002c4daa1a9e787ea6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ab6714df9d48414c566c288884860b0') in 0.002752667 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/DefaultVolumeProfile.asset
-  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3ee85287093c2e01e2184a29fd3edf') in 0.000562083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 200.375485 seconds.
+  path: Assets/Particles/Demo/Textures/Skybox/2.png
+  artifactKey: Guid(44ff503ef0db1a240b2694969d266d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Demo/Textures/Skybox/2.png using Guid(44ff503ef0db1a240b2694969d266d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '506b41c5f1ae9064e6f95f4f6305a7ca') in 0.063706042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35618.011444 seconds.
-  path: Assets/Sprites/Background.png
-  artifactKey: Guid(45b179fa1d7a9db428ee5c0f9ff391ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background.png using Guid(45b179fa1d7a9db428ee5c0f9ff391ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64cc81cd79df932666daa50746513bae') in 0.159533167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000036 seconds.
+  path: Assets/Particles/Textures/Emoticons/PNG/angry.png
+  artifactKey: Guid(827643247c5396045ab168f4d32a7e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/Emoticons/PNG/angry.png using Guid(827643247c5396045ab168f4d32a7e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2b16d9eb5b9d6cada64047532c65d33') in 0.005224417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/washing-machine-21925.png
-  artifactKey: Guid(ff2def303e84acc4d885e301d727edbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/washing-machine-21925.png using Guid(ff2def303e84acc4d885e301d727edbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '071eec12d702beff228e1f0181f98527') in 0.006165375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000063 seconds.
+  path: Assets/Particles/Demo/Textures/Skybox/5.png
+  artifactKey: Guid(f4e339a9935fe0948a5bfa56982dddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Demo/Textures/Skybox/5.png using Guid(f4e339a9935fe0948a5bfa56982dddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a92cdc02a4a17f38ed7f04d3251f0feb') in 0.003771166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/ironing-service-21950.png
-  artifactKey: Guid(3777e0fb6d2edd74bbffc7e6e40768e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/ironing-service-21950.png using Guid(3777e0fb6d2edd74bbffc7e6e40768e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cafe3e7e1f32516670fb07cde9b9fb38') in 0.005260084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 2.382464 seconds.
+  path: Assets/Particles/Textures/aura_punch.png
+  artifactKey: Guid(dc459e47586770b49b1aa54a5bd66f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/aura_punch.png using Guid(dc459e47586770b49b1aa54a5bd66f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9db58edffdc6726bcbdf1016f567d5b') in 0.031551375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/fan-1911.png
-  artifactKey: Guid(6d20019cb2c548646b80f6e31769cd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/fan-1911.png using Guid(6d20019cb2c548646b80f6e31769cd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ff0a8ace219f90336a4c5112bc0d7f1') in 0.007381792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19c408d931b0a24e3e78399475fc0fb7') in 0.330402792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.299515 seconds.
+  path: Assets/Particles/Textures/Text/blam.png
+  artifactKey: Guid(883b00317016df94f8308083d83bfa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/Text/blam.png using Guid(883b00317016df94f8308083d83bfa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4071dd06c9e6805848745191cdf18886') in 0.007079584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120532 seconds.
+  path: Assets/Particles/Textures/candle.png
+  artifactKey: Guid(c22f22ee2005563459d1f228a43b0199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/candle.png using Guid(c22f22ee2005563459d1f228a43b0199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b21e7684d3ef91f61b1cc9956a0849b') in 0.002616042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.350358 seconds.
+  path: Assets/Particles/Textures/cloud_soft.png
+  artifactKey: Guid(9cecc83887ca4cc45be4bf93b2f50c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/cloud_soft.png using Guid(9cecc83887ca4cc45be4bf93b2f50c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57bd7667de68d24a7ae191fe9342ef60') in 0.005431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041710 seconds.
+  path: Assets/Particles/Textures/Emoticons/PNG/cool.png
+  artifactKey: Guid(d18b90fe4f8d65849ae22475dd6a1528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/Emoticons/PNG/cool.png using Guid(d18b90fe4f8d65849ae22475dd6a1528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0149ded986e047e4d10ea77d0ab021a2') in 0.00417725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.486273 seconds.
+  path: Assets/Particles/Textures/Emoticons/PNG/cry.png
+  artifactKey: Guid(b08b8c8e61ac8fb42bec46925dec2c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/Emoticons/PNG/cry.png using Guid(b08b8c8e61ac8fb42bec46925dec2c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf07b728cbe423ae9d216faf9997dc2a') in 0.003666416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045905 seconds.
+  path: Assets/Particles/Demo/Textures/devcrate.png
+  artifactKey: Guid(32304db2d12d1ce489b65454715180c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Demo/Textures/devcrate.png using Guid(32304db2d12d1ce489b65454715180c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcd5709831d27d741d9030debd311846') in 0.00248675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.465756 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e381d79d9f09d3464801ce38e4b06fa9') in 0.006371125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050952 seconds.
+  path: Assets/Particles/Textures/evil_spirit.png
+  artifactKey: Guid(cc3d94d2188f94d40b9aa4774f0895b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/evil_spirit.png using Guid(cc3d94d2188f94d40b9aa4774f0895b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4850647c5ff0767dd7dc3e58ff443f7c') in 0.003649083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.373857 seconds.
+  path: Assets/Particles/Textures/explosion_spritesheet_3x3.png
+  artifactKey: Guid(d7c03274686d81342b51ce0f21ac8215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/explosion_spritesheet_3x3.png using Guid(d7c03274686d81342b51ce0f21ac8215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3be2782a3449db25afed7fa1f69b2941') in 0.003074208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071528 seconds.
+  path: Assets/Particles/Textures/Text/flash_white.png
+  artifactKey: Guid(a6004af65835ac14ea8d598dbe14d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/Text/flash_white.png using Guid(a6004af65835ac14ea8d598dbe14d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7109fa0e954acc6db4e732e09a361619') in 0.004803291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01b6912d7609a0d4d457ef4d08e8ece7') in 0.004151958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.407065 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e39bba6181821eeb86238aa544eda214') in 0.020932458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e05a0e083f2c2648dfd91093a526dc4') in 0.004162834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.316586 seconds.
+  path: Assets/Particles/Textures/sparkle2.png
+  artifactKey: Guid(81c2794b522bc6a4fa81c3ad4900b9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/sparkle2.png using Guid(81c2794b522bc6a4fa81c3ad4900b9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b16f93c999ec5acba1a8e7f2f6b7f3f') in 0.005183208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+  artifactKey: Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg using Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceb012528c045a44d3873106ab4d84b0') in 0.003191458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.643445 seconds.
+  path: Assets/Particles/Textures/shield_magic2.png
+  artifactKey: Guid(de09230c5ba01934f9f1de12a810dc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Textures/shield_magic2.png using Guid(de09230c5ba01934f9f1de12a810dc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9de6caf2dd741511cdb30348bb13ebf') in 0.00701625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

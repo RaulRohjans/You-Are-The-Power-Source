@@ -16,24 +16,21 @@ public class Device : MonoBehaviour
    
     private void Start()
     {
-     
         currentEnergy = maxEnergy;
-        particleObj?.SetActive(false);
     }
 
     private void Update()
     {
-        if (GameManager.Instance.gameStarted == false) return;
+        if (!GameManager.Instance.gameStarted) return;
+
         if (!isPowered)
         {
             currentEnergy -= depletionRate * Time.deltaTime;
             currentEnergy = Mathf.Clamp(currentEnergy, 0, maxEnergy);
             chargeImg.fillAmount = currentEnergy / maxEnergy;
+
             if (currentEnergy <= 0)
-            {
-              
                 GameManager.Instance.GameOver();
-            }
         }
         else
         {
@@ -41,18 +38,15 @@ public class Device : MonoBehaviour
             currentEnergy = Mathf.Clamp(currentEnergy, 0, maxEnergy);
             chargeImg.fillAmount = currentEnergy / maxEnergy;
         }
-      
     }
 
     public void PowerOn()
     {
         isPowered = true;
-        particleObj.SetActive(true);
     }
 
     public void PowerOff()
     {
         isPowered = false;
-        particleObj?.SetActive(false);
     }
 }

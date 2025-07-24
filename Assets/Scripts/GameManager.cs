@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -8,11 +9,18 @@ public class GameManager : MonoBehaviour
 
     public bool gameStarted = false;
 
+    // Powerline effect 
     public GameObject powerLinePrefab;
     private GameObject activePowerLine;
     public Transform plugTransform;
 
+    // Audio
     public AudioSource connectionSFX;
+
+    // Timer
+    public TextMeshPro timerText;
+    private float survivalTime = 0f;
+    private bool isGameOver = false;
 
     private void Awake()
     {
@@ -35,7 +43,20 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        if (!isGameOver)
+        {
+            survivalTime += Time.deltaTime;
+            UpdateTimerUI();
+        }
+
         HandleMouseClick();
+    }
+
+    void UpdateTimerUI()
+    {
+        int minutes = Mathf.FloorToInt(survivalTime / 60f);
+        int seconds = Mathf.FloorToInt(survivalTime % 60f);
+        timerText.text = $"{minutes:00}:{seconds:00}";
     }
 
     void HandleMouseClick()
@@ -78,8 +99,11 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         MusicManager.Instance.StopMusic();
+
         UIManager.Instance.failPanel.SetActive(true);
+        UIManager.Instance.ShowFinalTime(survivalTime);
+
         Time.timeScale = 0;
-        gameStarted= false; 
+        gameStarted = false;
     }
 }

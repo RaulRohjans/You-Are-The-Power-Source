@@ -12,8 +12,8 @@ public class IntroManager : MonoBehaviour
     public class SubtitleLine
     {
         public string text;
-        public float delayBefore;
-        public float duration;
+        public float startTime;
+        public float endTime;
     }
 
     public SubtitleLine[] lines;
@@ -38,9 +38,9 @@ public class IntroManager : MonoBehaviour
         foreach (var line in lines)
         {
             subtitleText.text = "";
-            yield return new WaitForSeconds(line.delayBefore);
+            yield return new WaitForSeconds(line.startTime - narrationAudio.time);
             yield return StartCoroutine(FadeIn(line.text, 1f));
-            yield return new WaitForSeconds(line.duration);
+            yield return new WaitForSeconds(line.endTime - line.startTime);
             yield return StartCoroutine(FadeOut(1f));
         }
 

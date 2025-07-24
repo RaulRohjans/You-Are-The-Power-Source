@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
             {
                 gameStarted = true;
                 UIManager.Instance.HideIntro();
+                MusicManager.Instance.PlayMusic();
             }
             return;
         }
@@ -71,9 +72,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        Debug.Log("Game Over! A critical device ran out of power.");
-
-        // You could add UI for Game Over here
+        MusicManager.Instance.StopMusic();
         UIManager.Instance.failPanel.SetActive(true);
         Time.timeScale = 0;
         gameStarted= false; 

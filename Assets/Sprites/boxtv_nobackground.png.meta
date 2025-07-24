@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cd06fc9d56ed74f088fcf1fa9f8f6cb1
+guid: 7ae09d9f446734a388ce493ab5053046
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7046560125745311398
-    second: tv_nobackground_0
+      213: -6252781775607425869
+    second: boxtv_nobackground_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tv_nobackground_0
+      name: boxtv_nobackground_0
       rect:
         serializedVersion: 2
-        x: 87
-        y: 111
-        width: 426
-        height: 362
+        x: 7
+        y: 31
+        width: 593
+        height: 530
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a51d48066e6953e90800000000000000
-      internalID: -7046560125745311398
+      spriteID: 3b412ee8a18a939a0800000000000000
+      internalID: -6252781775607425869
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tv_nobackground_0: -7046560125745311398
+      boxtv_nobackground_0: -6252781775607425869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

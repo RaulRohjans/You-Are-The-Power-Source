@@ -1078,7 +1078,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.2, y: 1.59}
+  m_Size: {x: 5, y: 3}
   m_EdgeRadius: 0
 --- !u!114 &313396855
 MonoBehaviour:
@@ -1163,7 +1163,7 @@ Transform:
   m_GameObject: {fileID: 313396853}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -4.2, y: -4.21, z: 0}
+  m_LocalPosition: {x: -6.57, y: -4.21, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2368,7 +2368,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 00000000078bf873
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -3476,7 +3476,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.6177883, y: 3.2153385}
+  m_Size: {x: 3.3, y: 4}
   m_EdgeRadius: 0
 --- !u!114 &932684700
 MonoBehaviour:
@@ -3632,7 +3632,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.2, y: 1.59}
+  m_Size: {x: 3, y: 5}
   m_EdgeRadius: 0
 --- !u!114 &949533517
 MonoBehaviour:
@@ -3717,7 +3717,7 @@ Transform:
   m_GameObject: {fileID: 949533515}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.15, y: -2.08, z: 0}
+  m_LocalPosition: {x: 7.14, y: 0.93, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6062,7 +6062,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.2, y: 2.7544212}
+  m_Size: {x: 4.5, y: 4.5}
   m_EdgeRadius: 0
 --- !u!114 &1832531017
 MonoBehaviour:
@@ -6218,7 +6218,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.5624628, y: 3.2273397}
+  m_Size: {x: 4, y: 5}
   m_EdgeRadius: 0
 --- !u!114 &1854368135
 MonoBehaviour:
@@ -6963,6 +6963,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameStarted: 0
+  powerLinePrefab: {fileID: 1066678314959664788, guid: 1a5f935a190b74a4aaa0010fd5640a31, type: 3}
+  plugTransform: {fileID: 474564539}
 --- !u!4 &2049063834
 Transform:
   m_ObjectHideFlags: 0
@@ -7152,6 +7154,14 @@ PrefabInstance:
     - target: {fileID: 442120, guid: f0c7a15b5680e5942940c754bfe84dbd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 19895658, guid: f0c7a15b5680e5942940c754bfe84dbd, type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19895658, guid: f0c7a15b5680e5942940c754bfe84dbd, type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
 
     public bool gameStarted = false;
 
+    public GameObject powerLinePrefab;
+    private GameObject activePowerLine;
+    public Transform plugTransform;
+
     private void Awake()
     {
         Time.timeScale = 1f;
@@ -56,6 +60,13 @@ public class GameManager : MonoBehaviour
 
         currentlyPowered = newDevice;
         currentlyPowered.PowerOn();
+
+        if (activePowerLine != null) Destroy(activePowerLine);
+
+        activePowerLine = Instantiate(powerLinePrefab);
+        PowerLine pl = activePowerLine.GetComponent<PowerLine>();
+        pl.start = plugTransform;
+        pl.end = newDevice.transform;
     }
 
     public void GameOver()

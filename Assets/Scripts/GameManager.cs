@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     private GameObject activePowerLine;
     public Transform plugTransform;
 
+    public AudioSource connectionSFX;
+
     private void Awake()
     {
         Time.timeScale = 1f;
@@ -68,6 +70,9 @@ public class GameManager : MonoBehaviour
         PowerLine pl = activePowerLine.GetComponent<PowerLine>();
         pl.start = plugTransform;
         pl.end = newDevice.transform;
+
+        // Play sound effect
+        if (connectionSFX != null) connectionSFX.Play();
     }
 
     public void GameOver()

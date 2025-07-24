@@ -11,8 +11,6 @@ public class Device : MonoBehaviour
 
     [HideInInspector] public float currentEnergy;
     [HideInInspector] public bool isPowered = false;
-
-    public GameObject particleObj;
    
     private void Start()
     {

@@ -208,7 +208,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -506,7 +506,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -602,7 +602,6 @@ MonoBehaviour:
   chargeImg: {fileID: 1986617595}
   currentEnergy: 0
   isPowered: 0
-  particleObj: {fileID: 0}
 --- !u!212 &313396856
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1274,7 +1273,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1650,7 +1649,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1821,7 +1820,6 @@ MonoBehaviour:
   chargeImg: {fileID: 1275173519}
   currentEnergy: 0
   isPowered: 0
-  particleObj: {fileID: 0}
 --- !u!212 &932684701
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1976,7 +1974,6 @@ MonoBehaviour:
   chargeImg: {fileID: 808991291}
   currentEnergy: 0
   isPowered: 0
-  particleObj: {fileID: 0}
 --- !u!212 &949533518
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2732,7 +2729,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -3086,7 +3083,6 @@ MonoBehaviour:
   chargeImg: {fileID: 236880125}
   currentEnergy: 0
   isPowered: 0
-  particleObj: {fileID: 0}
 --- !u!212 &1832531018
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3241,7 +3237,6 @@ MonoBehaviour:
   chargeImg: {fileID: 530544518}
   currentEnergy: 0
   isPowered: 0
-  particleObj: {fileID: 0}
 --- !u!212 &1854368136
 SpriteRenderer:
   m_ObjectHideFlags: 0
